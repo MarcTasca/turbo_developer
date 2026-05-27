@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Pi local agent state/auth (use ~/.pi for authentication)
+.pi/agent/
+.pi/**/auth*.json
+.pi/**/sessions/
+.pi/**/bin/
+
+# Keep project-specific Pi assets trackable
+!.pi/
+!.pi/skills/
+!.pi/skills/**
+!.pi/extensions/
+!.pi/extensions/**
